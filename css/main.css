@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+.em-primary {
+  color: #47c6ef;
+} 
+
+body{
+	font-family: 'Oxygen', sans-serif;	
+}
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../images/bg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.navbar-fontsize{
+	font-size:1.1em;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+	color:#38e4e6;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 6em;
+    font-weight: 900;
+	color:#c9cec8;
+	font-family: 'Oxygen', sans-serif;
+	text-shadow:2px 2px 5px #333;
+}
+
+.text-vertical-center h2{
+	letter-spacing: 3px; 
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Khula', sans-serif;
+}
+
+.sign_up {
+ width:140px;
+ height:50px;
+ border:none;
+ border-radius:50px;
+ background-color:rgba(21,192,214,0.6);
+ font-family: 'PT Sans', sans-serif;
+ font-size:1.2em;
+ letter-spacing: 2px; 
+}
+
+#about{
+	padding: 80px 0;
+	font-size:2.2em;
+	color:#095891;
+	font-family: 'Oxygen', sans-serif;
+	letter-spacing:2px;
+}
+
+#about h2{
+	margin:0px;
+	color:#48c7f0;
+	font-size:2.2em;
+}
+
+#responsive-showcase{
+	background-color:#085990;
+	padding:50px 0;
+	color:#FFF;
+}
+
+#responsive-showcase h2{
+	margin-bottom:30px;
+	margin-top:0px;
+}
+
+.list-unstyled span{
+	font-size: 150%;
+  	margin-left:20px;
+  	line-height:45px;
+}
+
+.list-unstyled li{
+	line-height: 3.6em;
+	border-bottom: 1px solid #4197db;
+	overflow:auto;	
+}
+
+.img-responsive{
+	margin:50px 0;	
+}
